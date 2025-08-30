@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "probtest"
+version = "0.1.1"
+description = "Pytest plugin to test probabilistic programs"
+readme = "README.md"
+authors = [
+  { name="Katrine Christensen", email="katch@itu.dk" },
+]
+requires-python = ">=3.9"
+classifiers = [
+    "Framework :: Pytest",
+]
+
+dependencies = ["pytest", "pytest-dependency"]
+
+[project.entry-points.pytest11]
+probtest = "probtest"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["src"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
