@@ -1,7 +1,6 @@
-# probtest
-Author: Katrine Christensen <katch@itu.dk>
+# ProbTest
 
-probtest is a plugin for [pytest](https://docs.pytest.org/) that efficiently tests probabilistic programs by running a test repeatedly. 
+Probtest is a plugin for [pytest](https://docs.pytest.org/) that efficiently tests probabilistic programs by running a test repeatedly. 
 
 To use the plugin to test a program, one must provide a specification of the program's output. Given a correct specification, the plugin guarantees coverage of the program's outcome with probability $1-\epsilon$ for an $\epsilon >0$. The default $\epsilon$ is 0.05.
 
