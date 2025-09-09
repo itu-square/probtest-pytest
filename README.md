@@ -4,7 +4,7 @@ ProbTest is a [Pytest](https://docs.pytest.org/) plugin to test probabilistic pr
 
 This repository accompanies the research article <i>ProbTest: Unit Testing for Probabilistic Programs</i>; to appear at [SEFM'25](https://sefm-conference.github.io/2025/). The article describes the theoretical underpinnings of ProbTest and an evaluation on realistic case studies.
 
-This repository contains the source code and results of the experiments for the evaluation of ProbTest presented in the paper. The evaluation targets several case studies including a randomized data structure and several reinforcement learning (RL) systems. The folder [case_studies](case_studies/) contains the source code and results of all experiments. The extended version of the article (available in ArXiV) includes the details about the test suit and injected bugs for the skip list case study and the results of all RL experiments.
+This repository contains the source code and results of the experiments for the evaluation of ProbTest presented in the paper. The evaluation targets several case studies including a randomized data structure and several reinforcement learning (RL) systems. The folder [case_studies](case_studies/) contains the source code and results of all experiments. The extended version of the article ([available in arXiv](https://arxiv.org/abs/2509.02012)) includes the details about the test suit and injected bugs for the skip list case study and the results of all RL experiments.
 
 
 
