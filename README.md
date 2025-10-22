@@ -2,7 +2,7 @@
 
 ProbTest is a [Pytest](https://docs.pytest.org/) plugin to test probabilistic programs. This testing plugin runs repeatedly the probabilistic program under test and ensures that bugs are found with high probability. The folder [probtest-main](probtest-main/) contains installation and usage instructions for the plugin.
 
-This repository accompanies the research article <i>ProbTest: Unit Testing for Probabilistic Programs</i>; to appear at [SEFM'25](https://sefm-conference.github.io/2025/). The article describes the theoretical underpinnings of ProbTest and an evaluation on realistic case studies.
+This repository accompanies the research article [<i>ProbTest: Unit Testing for Probabilistic Programs</i>](https://arxiv.org/abs/2509.02012); to appear at [SEFM'25](https://sefm-conference.github.io/2025/). The article describes the theoretical underpinnings of ProbTest and an evaluation on realistic case studies.
 
 This repository contains the source code and results of the experiments for the evaluation of ProbTest presented in the paper. The evaluation targets several case studies including a randomized data structure and several reinforcement learning (RL) systems. The folder [case_studies](case_studies/) contains the source code and results of all experiments. The extended version of the article ([available in arXiv](https://arxiv.org/abs/2509.02012)) includes the details about the test suit and injected bugs for the skip list case study and the results of all RL experiments.
 
